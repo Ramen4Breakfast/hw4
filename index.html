@@ -1,8 +1,36 @@
 <html>
+
     <head>
+
         <title>hw4</title>
+
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+
     <head>
+
     <body>
-        If this worked, I'm set
+
+        <h1 class="center">CSC 101 HW4 Website</h1>
+
+        <p>This button outputs the answer to life, the universe, and everything to the console</p>
+
+
+        <input type="submit" id="byBtn" value="Click Me!" onclick="consoleoutput()"/>
+
+        <script>
+
+            function consoleoutput(){
+                console.log(42);
+                }
+                
+        </script>
+
+        <p>This sentence demonstrates the use of an element selector</p>
+
+        <p id="sent2">This sentence demonstrates the use of an id selector to select which content is affected by CSS</p>
+
+        <p class="center"> This last statement demonstrates the class selector. As you may notice, this statement shares the same colour and position as the header, because both share the same class</p>
+
     </body>
+
 </html>
