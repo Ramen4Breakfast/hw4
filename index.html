@@ -10,9 +10,31 @@
 
     <body>
 
-        <h1 class="center">CSC 101 HW4 Website</h1>
+        <h1 class="sometext">CSC 101 HW4 Website</h1>
 
-        <p>This button outputs the answer to life, the universe, and everything to the console</p>
+        <div class="flex-container">
+
+            <div class="flex-item">
+
+                <p>This first sentence demonstrates the use of an element selector. You may also notice that the order of this list has been revered. This is the result of flexbox formatting</p>
+
+            </div>
+
+            <div class="flex-item">
+
+                <p id="sent">This second sentence demonstrates the use of an id selector. This is in order to select specific content to be affected by CSS</p>
+
+            </div>
+
+            <div class="flex-item">
+
+                <p class="sometext"> This last statement demonstrates the class selector. As you may notice, this statement shares the same colour and position as the header, because both share the same class. This statement, as well as the header, both utilize flexbox to layout their position.</p>
+
+            </div>
+
+        </div>
+
+        <p>This button outputs the answer to life, the universe, and everything, to the console. </p>
 
 
         <input type="submit" id="byBtn" value="Click Me!" onclick="consoleoutput()"/>
@@ -24,12 +46,6 @@
                 }
                 
         </script>
-
-        <p>This sentence demonstrates the use of an element selector</p>
-
-        <p id="sent">This sentence demonstrates the use of an id selector. This is in order to select specific content to be affected by CSS</p>
-
-        <p class="center"> This last statement demonstrates the class selector. As you may notice, this statement shares the same colour and position as the header, because both share the same class. This statement, as well as the header, both utilize flexbox to layout their position</p>
 
     </body>
 

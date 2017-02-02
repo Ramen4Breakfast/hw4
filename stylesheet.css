@@ -6,11 +6,22 @@ p {
 	color: red;
 }
 
-.center {
+.sometext {
 	color: green;
-	justify-content: center;
 }
 
 html {
 	background: lightgrey;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.flex-item {
+    background-color: lightgrey;
+    margin: 10px;
 }
